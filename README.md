@@ -69,17 +69,18 @@ Here is a look at the application in action during different activities:
 ### Final Dashboard (4-Panel View & Live Preview)
 The completed UI features a 4-column layout perfectly fitting modern widescreen monitors, showing real-time chat, progress rings, and a live rendering of the legal document.
 
-<img width="1814" height="1011" alt="image" src="https://github.com/user-attachments/assets/e4420d96-4e0c-4088-a9b2-bf022004b63a" />
+<img width="1889" height="1016" alt="image" src="https://github.com/user-attachments/assets/2c3c584a-ebd6-4388-b354-64b088f9f2b9" />
+
 
 ### Document Preview 
 
-<img width="830" height="896" alt="image" src="https://github.com/user-attachments/assets/4626ef49-a739-4430-9595-8ce02dc882fa" />
+<img width="1911" height="1025" alt="image" src="https://github.com/user-attachments/assets/75ba75a4-a40c-439f-9b9b-b34040f06d13" />
 
 
 ### Strict Conflict Resolution
 When the backend detects a logical contradiction (e.g., claiming no children but naming a son as an executor), the system safely intercepts it and demands user confirmation, explicitly displaying the conflict reason.
 
-<img width="497" height="638" alt="image" src="https://github.com/user-attachments/assets/60bac856-182c-40aa-9018-3fe733214b9f" />
+<img width="1915" height="1023" alt="image" src="https://github.com/user-attachments/assets/b8f96e39-97fc-4ed5-a5f0-d6cb8bdafda0" />
 
 ## A short explanation of how the mock would be replaced by a real provider
 
@@ -95,10 +96,6 @@ To replace the mock with a real provider, you only need to "give" the project tw
 2.The API Key: Provide the authenticating secret key for that specific service.
 
 Example .env configuration:
-
-Switch off the mock by specifying a real provider
-
-LLM_PROVIDER=llm
 
 Give the project the required API Key
 
