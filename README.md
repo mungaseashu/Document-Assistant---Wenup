@@ -37,7 +37,7 @@ pip install -r requirements.txt
 
 Create a `.env` file in the `backend` directory and add your API keys:
 ```env
-LLM_PROVIDER=llm
+LLM_PROVIDER=universal
 LLM_API_KEY=your_llm_api_key
 LLM_MODEL_NAME=your_llm_model_name
 ```
