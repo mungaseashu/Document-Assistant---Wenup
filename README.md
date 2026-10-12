@@ -9,6 +9,7 @@ A modern, trust-aware AI assistant designed to help users draft a **Personal Wis
 - **Real-Time Progress Dashboard**: A 4-panel ultra-wide UI displaying Chat, Live Progress, State Summary, and a complete Activity Timeline.
 - **Live Document Preview**: Watch your final markdown document build itself dynamically beneath your state cards as you answer questions.
 - **Conflict Resolution UI**: Automatically pauses when contradictory or confusing information is detected and clearly displays the reason so you can provide corrections.
+- **Deployed on AWS**: Successfully deployed the application on AWS.
 
 ##  Tech Stack
 
